@@ -9,7 +9,7 @@ class GroundVehicle():
         super().__init__(**kwargs)
 
     def drive(self):
-        return "vroom vroom"
+        return "vroooom"
 
 
 class Motorcycle(GroundVehicle):
@@ -17,8 +17,7 @@ class Motorcycle(GroundVehicle):
         super().__init__(num_wheels=2, **kwargs)
 
     def drive(self):
-        return "zoom"
-
+        return "BRAAAP!!"
 
 # Subclass Motorcycle from GroundVehicle.
 #
